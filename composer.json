@@ -15,7 +15,7 @@
     "require": {
         "php": ">=7.0",
         "botman/botman": "~2.1",
-        "mpociot/slack-client": "~1.0"
+        "mpociot/slack-client": "dev-master"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
@@ -25,6 +25,12 @@
         "mockery/mockery": "^1.1",
         "ext-curl": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hamed-aloware/slack-client"
+        }
+    ],
     "suggest": {
         "mpociot/slack-client": "Use the Slack RTM API with BotMan"
     },
